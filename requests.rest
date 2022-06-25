@@ -1,0 +1,23 @@
+GET  Http://localhost:8080/user
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZhaXJ5dGFpbHV6dW1ha2lAZ21haWwuY29tIiwicGFzc3dvcmQiOiJLaXJpdG8xMTUxOTk5IiwiaWF0IjoxNjU2MDkzMTY1LCJleHAiOjE2NTYwOTMxOTV9.9osXWFJ6bsDrpJhIhiu1xmmWLG63wealuAZUT6Ll36s
+###
+
+POST Http://localhost:8080/token
+Content-Type: application/json
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZhaXJ5dGFpbHV6dW1ha2lAZ21haWwuY29tIiwicGFzc3dvcmQiOiJLaXJpdG8xMTUxOTk5IiwiaWF0IjoxNjU2MDkzMTMzfQ.RV1g7ftsuDV0Oq5laLFQGZOaCB0DN0eGsMvWwu92N1o"
+}
+
+
+
+
+###
+
+POST Http://localhost:8080/login
+Content-Type: application/json
+
+{
+    "email": "fairytailuzumaki@gmail.com",
+    "password": "Kirito1151999"
+}
